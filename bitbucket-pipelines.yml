@@ -6,8 +6,12 @@ pipelines:
         - step:
            script:
              - git remote add sync https://github.com/harshsharma1943/mickey-22-aug-2022.git
+             - ls -ltrh
              - git checkout master
+             - ls -ltrh
              - git pull
+             - ls -ltrh
              - git fetch --unshallow    
-             - git push sync master
+             - ls -ltrh
+           # - git push sync master
       
