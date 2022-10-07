@@ -1,0 +1,13 @@
+image: atlassian/default-image:2
+
+pipelines:
+    branches:
+      master:
+        - step:
+           script:
+             - git remote add sync https://github.com/harshsharma1943/mickey-22-aug-2022.git
+             - git checkout master
+             - git pull
+             - git fetch --unshallow    
+             - git push sync master
+      
