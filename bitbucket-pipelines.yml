@@ -11,5 +11,5 @@ pipelines:
              - ls -ltrh
              - git pull
              - ls -ltrh
-             - git push sync master
+             - git push sync master --force
       
