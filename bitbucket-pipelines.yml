@@ -5,7 +5,7 @@ pipelines:
       master:
         - step:
            script:
-             - git remote add sync https://harshsharma1943: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@github.com/harshsharma1943/mickey-22-aug-2022.git
+             - git remote add sync https://harshsharma1943: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@github.com/harshsharma1943/mickey-22-aug-2022.git
              - ls -ltrh
              - git checkout master
              - ls -ltrh
